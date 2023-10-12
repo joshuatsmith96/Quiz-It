@@ -1,0 +1,72 @@
+[
+        
+    {
+        "id": 1,
+        "title": "JavaScript Quiz",
+        "text": "Test your knowledge on JavaScript ES6!",
+        "imgURL": "https://cdn.pixabay.com/photo/2018/04/20/21/10/code-3337044_1280.jpg",
+        "quizQuestions":[
+            "Inside which HTML element do we put the JavaScript?", 
+            "What is the correct JavaScript syntax to change the content of the following HTML element?: <p id='demo'>This is a demonstration.</p>", 
+            "Where is the correct place to insert a JavaScript?", 
+            "What is the correct syntax for referring to an external script called 'xxx.js'?", 
+            "How do you write 'Hello World' in an alert box?"
+        ],
+        "Choices":[
+            ["<script>", "<javascript>", "<js>", "<scripting>"],
+            ["#demo.innerHTML = 'Hello World!';", "document.getElement('p').innerHTML = 'Hello World!'", "document.getElementById('demo').innerHTML = 'Hello World!';", "document.getElementByName('p').innerHTML = 'Hello World!"],
+            ["The <head> section", "The <body> section", "Both the <head> section and the <body> section are correct"],
+            ["<script name='xxx.js'>", "<script src='xxx.js'>", "<script href='xxx.js>"],
+            ["post('Hello World');", "message('Hello World');", "alert('Hello World');", "note('Hello World');"]
+        ],
+        "Answers":[
+            ["<script>", "document.getElementById('demo').innerHTML = 'Hello World!';", "The <head> section", "<script src='xxx.js'>", "alert('Hello World');"]
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Fruit Quiz",
+        "text": "Test your knowledge of fruit",
+        "imgURL": "https://cdn.pixabay.com/photo/2017/05/11/19/44/fresh-fruits-2305192_1280.jpg",
+        "quizQuestions":[
+            "How many seeds does the average watermellon have?", 
+            "How many distinct species of strawberries are there?", 
+            "An Apple Pear is a real fruit", 
+            "How did the fruit 'Kiwi' get its name?"
+        ],
+        "Choices":[
+            ["100 to 600", "1000 to 1500", "400 to 1000", "200 to 800"],
+            ["305", "202", "97", "103"],
+            ["True", "False"],
+            ["Named after a type of rock called a 'kiwi' that was known for growing a rare type of brown moss", "Named after the Kiwi bird, as it was the same color", "Named after a shooting star that was called the 'Kiwi Star' for its brown tinge."]
+        ],
+        "Answers":[
+            ["200 to 800", "103", "True", "Named after the Kiwi bird, as it was the same color"]
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Star Wars Quiz",
+        "text": "Test your knowledge of the Starwars universe!",
+        "imgURL": "https://cdn.pixabay.com/photo/2015/09/09/20/14/lego-933036_1280.jpg",
+        "quizQuestions":[
+            "Who was the pilot for the Millenium Falcon in the original movies?", 
+            "Who is the main protagonist in the newest Star Wars film?", 
+            "What legion was Captain Rex in during the Clone Wars?", 
+            "Which Jedi has a purple light saber?", 
+            "What is the technical name for force energy that reside in a Jedi", 
+            "True or False: Obi Wan was a better pilot than Anakin."
+        ],
+        "Choices":[
+            ["Darth Vader", "Anakin Skywalker", "Luke S", "Han Solo"],
+            ["John", "Jacob", "Bill", "Rey"],
+            ["222nd", "501st", "202nd", "551st"],
+            ["Yoda", "Qui Gon Jinn", "Mace Windu", "Ashoka"],
+            ["Star Particles", "Moon Energy", "Midichlorians"],
+            ["True", "False"]
+        ],
+        "Answers":[
+            ["Han Solo", "Rey", "501st", "Mace Windu", "Midichlorians", "False"]
+        ]
+    }
+]

@@ -1,0 +1,180 @@
+html{
+    background-color: rgb(12, 142, 230);;
+}
+
+.App{
+    background: rgb(12, 142, 230);
+    padding: 15px;
+    margin: 0px;
+}
+
+.Cards{
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+#root{
+    height: 100%;
+}
+
+.CardBody{
+    text-align: center;
+}
+
+.CardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* display: grid;
+    grid-template-areas: "a a";
+    gap: 100px;
+    grid-auto-columns: 200px;*/
+} 
+
+.Intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Intro h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Intro p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.CardBody p{
+    color: black;
+}
+
+.choicesDisplay{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.choicesDisplay label{
+    font-size: 20px;
+    color: white;
+}
+
+.choicesDisplay input{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.quizPageHeader{
+    margin-bottom: 50px;
+}
+
+.questionDisplay{
+    margin-bottom: 20px;
+}
+
+.questionDisplay h4{
+    margin-bottom: 20px;
+}
+
+.Questions{
+    margin-bottom: 30px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkButton{
+    text-decoration: none;
+    border:solid;
+    border-width: thin;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s;
+    color: #297FFD;
+    background-color: white;
+}
+
+.linkButton:hover{
+    background-color: #297FFD;
+    color: white;
+}
+
+.ModeToggle{
+    margin-bottom: 40px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-gray{
+    color: rgb(48, 48, 48);
+}
+
+.bold{
+    font-weight:400;
+}
+
+.QuestionsContainer .linkButton{
+    border: solid;
+}
+
+.ResultsPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ResultsPage h1{
+    color: white;
+}
+
+.ResultsPage p{
+    color: rgb(48, 48, 48);
+}
+
+@media all and (min-width: 1142px) {
+    .CardContainer{
+        display: grid;
+        grid-template-areas: "a a";
+        gap: 100px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+
+@media all and (min-width: 1735px) {
+    .CardContainer{
+        display: grid;
+        grid-template-areas: "a a a";
+        gap: 100px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Cards{
+        width: 300px;
+        margin-bottom: 60px;
+    }
+
+    .QuestionsContainer{
+        padding: 40px;
+    }
+}

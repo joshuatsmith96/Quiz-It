@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route index element={<IntroPage />} />
+        <Route path="/Quiz-It" element={<IntroPage />} />
         <Route path="/quiz" element={<QuizPage/>} />
         <Route path="/results" element={<ResultsPage/>} />
       </Routes>

@@ -30,7 +30,7 @@ function ResultsPage(){
             <h1>Results</h1>
             <p>You got {correctAnswers} out of {storedAnswers.length} questions correct</p>
             <p>Final Score: {percentage}</p>
-            <Link className="linkButton" to="/">Back To Categories</Link>
+            <Link className="linkButton" to="/Quiz-It">Back To Categories</Link>
         </div>
     )
 }

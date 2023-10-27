@@ -21,7 +21,7 @@ function QuestionsContainer(props: Props) {
     linkLocation = "/results"
   } else {
     buttonText = "Back To Categories"
-    linkLocation = "/"
+    linkLocation = "/Quiz-It"
   }
 
   let quizID = props.quizID;
